@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simpleNote - Minimalist Note-Taking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <h1>simpleNote</h1>
+            <nav id="header-list"></nav>
+            <div class="counter">
+                <span id="word-count">0 words</span>
+                <span id="char-count">0 characters</span>
+                <div class="file-actions">
+                    <a href="#" id="download-link">download</a>
+                    <a href="#" id="upload-link">upload</a>
+                    <input type="file" id="file-input" style="display: none;" accept=".txt">
+                </div>
+            </div>
+        </aside>
+        <main class="main-content">
+            <textarea id="editor" placeholder="Start typing here...&#10;&#10;Tip: Use # before a line to create a header."></textarea>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
