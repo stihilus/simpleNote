@@ -1,6 +1,6 @@
-# Left - Minimalist Note-Taking App
+# simpleNote - Minimalist Note-Taking App
 
-Left is a simple, open-source, distraction-free writing application designed to help organize ideas. It's a lightweight, browser-based tool that focuses on simplicity and ease of use.
+simpleNote, open-source, distraction-free writing application designed to help organize ideas. It's a lightweight, browser-based tool that focuses on simplicity and ease of use.
 
 ## Features
 
